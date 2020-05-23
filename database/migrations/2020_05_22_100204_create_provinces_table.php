@@ -21,6 +21,7 @@ class CreateProvincesTable extends Migration
 			$table->unsignedBigInteger('controller')->nullable();
 			//special items
 			$table->integer('horses')->default(0);
+			$table->integer('naval')->default(0);
 			$table->integer('lacquerware')->default(0);
 			$table->integer('pottery')->default(0);
 			$table->integer('silk')->default(0);

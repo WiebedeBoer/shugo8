@@ -15,9 +15,30 @@ class ProvinceSeeder extends Seeder
 		//1
 		DB::table('provinces')->insert([
 			'province_name' => 'Aki',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
+			'silk' => '0',
+			'cotton' => '0',
+			'tea' => '0',
+			'iron' => '1',
+			'gold' => '0',
+			'silver' => '0',
+			'coppper' => '0',
+			'holy_site' => '1',
+			'smithing' => '0',
+			'ninja_clan' => '0',
+			'philosophy' => '0',
+			'kanrei' => '0'
+		]);	
+		//2 shikoku
+		DB::table('provinces')->insert([
+			'province_name' => 'Awa',
+			'horses' => '1', 
+			'naval' => '0',
+			'lacquerware' => '0',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
@@ -25,35 +46,17 @@ class ProvinceSeeder extends Seeder
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
-			'holy_site' => '0',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//2
+		//3 honshu
 		DB::table('provinces')->insert([
 			'province_name' => 'Awa',
-			'horses' => '0',
-			'lacquerware' => '0',
-			'pottery' => '0',
-			'silk' => '0',
-			'cotton' => '0',
-			'tea' => '0',
-			'iron' => '0',
-			'gold' => '0',
-			'silver' => '0',
-			'coppper' => '0',
-			'holy_site' => '0',
-			'smithing' => '0',
-			'ninja_clan' => '0',
-			'philosophy' => '0',
-			'kanrei' => '0'
-		]);	
-		//3
-		DB::table('provinces')->insert([
-			'province_name' => 'Awa',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -72,7 +75,8 @@ class ProvinceSeeder extends Seeder
 		//4
 		DB::table('provinces')->insert([
 			'province_name' => 'Awaji',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -91,7 +95,8 @@ class ProvinceSeeder extends Seeder
 		//5
 		DB::table('provinces')->insert([
 			'province_name' => 'Bingo',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '1',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -110,7 +115,8 @@ class ProvinceSeeder extends Seeder
 		//6
 		DB::table('provinces')->insert([
 			'province_name' => 'Bitchu',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -129,9 +135,10 @@ class ProvinceSeeder extends Seeder
 		//7
 		DB::table('provinces')->insert([
 			'province_name' => 'Bizen',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
-			'pottery' => '0',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
@@ -140,7 +147,7 @@ class ProvinceSeeder extends Seeder
 			'silver' => '0',
 			'coppper' => '0',
 			'holy_site' => '0',
-			'smithing' => '0',
+			'smithing' => '1',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
 			'kanrei' => '0'
@@ -148,17 +155,18 @@ class ProvinceSeeder extends Seeder
 		//8
 		DB::table('provinces')->insert([
 			'province_name' => 'Bungo',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '1',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
-			'holy_site' => '0',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
@@ -167,8 +175,9 @@ class ProvinceSeeder extends Seeder
 		//9
 		DB::table('provinces')->insert([
 			'province_name' => 'Buzen',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
@@ -186,7 +195,8 @@ class ProvinceSeeder extends Seeder
 		//10
 		DB::table('provinces')->insert([
 			'province_name' => 'Chikugo',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -205,9 +215,10 @@ class ProvinceSeeder extends Seeder
 		//11
 		DB::table('provinces')->insert([
 			'province_name' => 'Chikuzen',
-			'horses' => '0',
-			'lacquerware' => '0',
-			'pottery' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
@@ -215,26 +226,27 @@ class ProvinceSeeder extends Seeder
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
-			'holy_site' => '0',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
-			'philosophy' => '0',
-			'kanrei' => '0'
+			'philosophy' => '1',
+			'kanrei' => '1'
 		]);	
 		//12
 		DB::table('provinces')->insert([
 			'province_name' => 'Dewa',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
-			'gold' => '0',
-			'silver' => '0',
-			'coppper' => '0',
-			'holy_site' => '0',
+			'gold' => '1',
+			'silver' => '1',
+			'coppper' => '1',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
@@ -243,16 +255,17 @@ class ProvinceSeeder extends Seeder
 		//13
 		DB::table('provinces')->insert([
 			'province_name' => 'Echigo',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
-			'coppper' => '0',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -262,9 +275,10 @@ class ProvinceSeeder extends Seeder
 		//14
 		DB::table('provinces')->insert([
 			'province_name' => 'Echizen',
-			'horses' => '0',
-			'lacquerware' => '0',
-			'pottery' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
@@ -281,8 +295,9 @@ class ProvinceSeeder extends Seeder
 		//15
 		DB::table('provinces')->insert([
 			'province_name' => 'Etchu',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
@@ -300,11 +315,12 @@ class ProvinceSeeder extends Seeder
 		//16
 		DB::table('provinces')->insert([
 			'province_name' => 'Harima',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
-			'cotton' => '0',
+			'cotton' => '1',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
@@ -319,13 +335,14 @@ class ProvinceSeeder extends Seeder
 		//17
 		DB::table('provinces')->insert([
 			'province_name' => 'Hida',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
@@ -338,7 +355,8 @@ class ProvinceSeeder extends Seeder
 		//18
 		DB::table('provinces')->insert([
 			'province_name' => 'Higo',
-			'horses' => '0',
+			'horses' => '1', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -348,7 +366,7 @@ class ProvinceSeeder extends Seeder
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
-			'holy_site' => '0',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
@@ -357,11 +375,12 @@ class ProvinceSeeder extends Seeder
 		//19
 		DB::table('provinces')->insert([
 			'province_name' => 'Hitachi',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
-			'cotton' => '0',
+			'cotton' => '1',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
@@ -376,7 +395,8 @@ class ProvinceSeeder extends Seeder
 		//20
 		DB::table('provinces')->insert([
 			'province_name' => 'Hizen',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '1',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -395,8 +415,9 @@ class ProvinceSeeder extends Seeder
 		//21
 		DB::table('provinces')->insert([
 			'province_name' => 'Hoki',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
@@ -414,16 +435,17 @@ class ProvinceSeeder extends Seeder
 		//22
 		DB::table('provinces')->insert([
 			'province_name' => 'Hyuga',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
-			'cotton' => '0',
+			'cotton' => '1',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
-			'coppper' => '0',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -433,32 +455,34 @@ class ProvinceSeeder extends Seeder
 		//23
 		DB::table('provinces')->insert([
 			'province_name' => 'Iga',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
-			'tea' => '0',
+			'tea' => '1',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
 			'holy_site' => '0',
 			'smithing' => '0',
-			'ninja_clan' => '0',
+			'ninja_clan' => '1',
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
 		//24
 		DB::table('provinces')->insert([
 			'province_name' => 'Inaba',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '1',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
@@ -471,7 +495,8 @@ class ProvinceSeeder extends Seeder
 		//25
 		DB::table('provinces')->insert([
 			'province_name' => 'Ise',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -481,7 +506,7 @@ class ProvinceSeeder extends Seeder
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
-			'holy_site' => '0',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
@@ -490,7 +515,8 @@ class ProvinceSeeder extends Seeder
 		//26
 		DB::table('provinces')->insert([
 			'province_name' => 'Iwami',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -498,7 +524,7 @@ class ProvinceSeeder extends Seeder
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
-			'silver' => '0',
+			'silver' => '1',
 			'coppper' => '0',
 			'holy_site' => '0',
 			'smithing' => '0',
@@ -509,7 +535,8 @@ class ProvinceSeeder extends Seeder
 		//27
 		DB::table('provinces')->insert([
 			'province_name' => 'Iyo',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -528,16 +555,17 @@ class ProvinceSeeder extends Seeder
 		//28
 		DB::table('provinces')->insert([
 			'province_name' => 'Izu',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
-			'gold' => '0',
+			'gold' => '1',
 			'silver' => '0',
-			'coppper' => '0',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -547,12 +575,13 @@ class ProvinceSeeder extends Seeder
 		//29
 		DB::table('provinces')->insert([
 			'province_name' => 'Izumi',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '1',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
-			'tea' => '0',
+			'tea' => '1',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
@@ -566,7 +595,8 @@ class ProvinceSeeder extends Seeder
 		//30
 		DB::table('provinces')->insert([
 			'province_name' => 'Izumo',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -585,16 +615,17 @@ class ProvinceSeeder extends Seeder
 		//31
 		DB::table('provinces')->insert([
 			'province_name' => 'Kaga',
-			'horses' => '0',
-			'lacquerware' => '0',
-			'pottery' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
-			'gold' => '0',
+			'gold' => '1',
 			'silver' => '0',
-			'coppper' => '0',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -604,14 +635,15 @@ class ProvinceSeeder extends Seeder
 		//32
 		DB::table('provinces')->insert([
 			'province_name' => 'Kai',
-			'horses' => '0',
+			'horses' => '1', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
-			'gold' => '0',
+			'iron' => '1',
+			'gold' => '1',
 			'silver' => '0',
 			'coppper' => '0',
 			'holy_site' => '0',
@@ -622,16 +654,17 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//33
 		DB::table('provinces')->insert([
-			'province_name' => 'Kazusa',
-			'horses' => '0',
+			'province_name' => 'Kawachi',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
-			'tea' => '0',
+			'tea' => '1',
 			'iron' => '0',
 			'gold' => '0',
-			'silver' => '0',
+			'silver' => '1',
 			'coppper' => '0',
 			'holy_site' => '0',
 			'smithing' => '0',
@@ -641,14 +674,15 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//34
 		DB::table('provinces')->insert([
-			'province_name' => 'Kii',
-			'horses' => '0',
+			'province_name' => 'Kazusa',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
@@ -660,9 +694,10 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//35
 		DB::table('provinces')->insert([
-			'province_name' => 'Kozuke',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'province_name' => 'Kii',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
@@ -671,7 +706,7 @@ class ProvinceSeeder extends Seeder
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
-			'holy_site' => '0',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
@@ -679,36 +714,38 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//36
 		DB::table('provinces')->insert([
-			'province_name' => 'Kawachi',
-			'horses' => '0',
+			'province_name' => 'Kozuke',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
-			'coppper' => '0',
-			'holy_site' => '0',
+			'coppper' => '1',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
-			'philosophy' => '0',
+			'philosophy' => '1',
 			'kanrei' => '0'
 		]);	
 		//37
 		DB::table('provinces')->insert([
 			'province_name' => 'Mikawa',
-			'horses' => '0',
+			'horses' => '1', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
-			'tea' => '0',
+			'tea' => '1',
 			'iron' => '0',
-			'gold' => '0',
-			'silver' => '0',
-			'coppper' => '0',
+			'gold' => '1',
+			'silver' => '1',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -718,13 +755,14 @@ class ProvinceSeeder extends Seeder
 		//38
 		DB::table('provinces')->insert([
 			'province_name' => 'Mimasaka',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
@@ -737,10 +775,11 @@ class ProvinceSeeder extends Seeder
 		//39
 		DB::table('provinces')->insert([
 			'province_name' => 'Mino',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
-			'pottery' => '0',
-			'silk' => '0',
+			'pottery' => '1',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
@@ -756,14 +795,15 @@ class ProvinceSeeder extends Seeder
 		//40
 		DB::table('provinces')->insert([
 			'province_name' => 'Musashi',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
-			'gold' => '0',
+			'iron' => '1',
+			'gold' => '1',
 			'silver' => '0',
 			'coppper' => '0',
 			'holy_site' => '0',
@@ -775,35 +815,37 @@ class ProvinceSeeder extends Seeder
 		//41
 		DB::table('provinces')->insert([
 			'province_name' => 'Mutsu',
-			'horses' => '0',
-			'lacquerware' => '0',
-			'pottery' => '0',
-			'silk' => '0',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
+			'pottery' => '1',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
-			'gold' => '0',
+			'iron' => '1',
+			'gold' => '1',
 			'silver' => '0',
-			'coppper' => '0',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
-			'kanrei' => '0'
+			'kanrei' => '1'
 		]);	
 		//42
 		DB::table('provinces')->insert([
 			'province_name' => 'Nagato',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
-			'pottery' => '0',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
-			'silver' => '0',
-			'coppper' => '0',
+			'silver' => '1',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -813,7 +855,8 @@ class ProvinceSeeder extends Seeder
 		//43
 		DB::table('provinces')->insert([
 			'province_name' => 'Noto',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -832,9 +875,10 @@ class ProvinceSeeder extends Seeder
 		//44
 		DB::table('provinces')->insert([
 			'province_name' => 'Omi',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
-			'pottery' => '0',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
@@ -844,18 +888,19 @@ class ProvinceSeeder extends Seeder
 			'coppper' => '0',
 			'holy_site' => '0',
 			'smithing' => '0',
-			'ninja_clan' => '0',
+			'ninja_clan' => '1',
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
 		//45
 		DB::table('provinces')->insert([
 			'province_name' => 'Osumi',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
-			'cotton' => '0',
+			'cotton' => '1',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
@@ -870,12 +915,13 @@ class ProvinceSeeder extends Seeder
 		//46
 		DB::table('provinces')->insert([
 			'province_name' => 'Owari',
-			'horses' => '0',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
-			'pottery' => '0',
+			'pottery' => '1',
 			'silk' => '0',
-			'cotton' => '0',
-			'tea' => '0',
+			'cotton' => '1',
+			'tea' => '1',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
@@ -888,15 +934,16 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//47
 		DB::table('provinces')->insert([
-			'province_name' => 'Sagami',
-			'horses' => '0',
+			'province_name' => 'Sado',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
-			'gold' => '0',
+			'gold' => '1',
 			'silver' => '0',
 			'coppper' => '0',
 			'holy_site' => '0',
@@ -907,27 +954,29 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//48
 		DB::table('provinces')->insert([
-			'province_name' => 'Sanuki',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'province_name' => 'Sagami',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
-			'coppper' => '0',
-			'holy_site' => '0',
-			'smithing' => '0',
+			'coppper' => '1',
+			'holy_site' => '1',
+			'smithing' => '1',
 			'ninja_clan' => '0',
-			'philosophy' => '0',
-			'kanrei' => '0'
+			'philosophy' => '1',
+			'kanrei' => '1'
 		]);	
 		//49
 		DB::table('provinces')->insert([
-			'province_name' => 'Satsuma',
-			'horses' => '0',
+			'province_name' => 'Sanuki',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -936,7 +985,7 @@ class ProvinceSeeder extends Seeder
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
-			'coppper' => '0',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -945,31 +994,33 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//50
 		DB::table('provinces')->insert([
-			'province_name' => 'Settsu',
-			'horses' => '0',
+			'province_name' => 'Satsuma',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
-			'cotton' => '0',
+			'cotton' => '1',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
 			'holy_site' => '0',
-			'smithing' => '0',
+			'smithing' => '1',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
 		//51
 		DB::table('provinces')->insert([
-			'province_name' => 'Shima',
-			'horses' => '0',
+			'province_name' => 'Settsu',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
-			'cotton' => '0',
+			'cotton' => '1',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
@@ -978,22 +1029,23 @@ class ProvinceSeeder extends Seeder
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
-			'philosophy' => '0',
+			'philosophy' => '1',
 			'kanrei' => '0'
 		]);	
 		//52
 		DB::table('provinces')->insert([
-			'province_name' => 'Shimousa',
-			'horses' => '0',
+			'province_name' => 'Shima',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
-			'coppper' => '0',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -1002,12 +1054,13 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//53
 		DB::table('provinces')->insert([
-			'province_name' => 'Shimotsuke',
-			'horses' => '0',
+			'province_name' => 'Shimousa',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
-			'cotton' => '0',
+			'cotton' => '1',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
@@ -1021,18 +1074,19 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//54
 		DB::table('provinces')->insert([
-			'province_name' => 'Shinano',
-			'horses' => '0',
+			'province_name' => 'Shimotsuke',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
-			'iron' => '0',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
-			'coppper' => '0',
-			'holy_site' => '0',
+			'coppper' => '1',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
@@ -1040,11 +1094,12 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//55
 		DB::table('provinces')->insert([
-			'province_name' => 'Suo',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'province_name' => 'Shinano',
+			'horses' => '1', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
-			'silk' => '0',
+			'silk' => '1',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
@@ -1053,15 +1108,16 @@ class ProvinceSeeder extends Seeder
 			'coppper' => '0',
 			'holy_site' => '0',
 			'smithing' => '0',
-			'ninja_clan' => '0',
+			'ninja_clan' => '1',
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
 		//56
 		DB::table('provinces')->insert([
-			'province_name' => 'Suruga',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'province_name' => 'Suo',
+			'horses' => '1', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
@@ -1078,13 +1134,14 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//57
 		DB::table('provinces')->insert([
-			'province_name' => 'Tajima',
-			'horses' => '0',
+			'province_name' => 'Suruga',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
-			'tea' => '0',
+			'tea' => '1',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
@@ -1092,13 +1149,14 @@ class ProvinceSeeder extends Seeder
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
-			'philosophy' => '0',
+			'philosophy' => '1',
 			'kanrei' => '0'
 		]);	
 		//58
 		DB::table('provinces')->insert([
-			'province_name' => 'Tamba',
-			'horses' => '0',
+			'province_name' => 'Tajima',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -1116,17 +1174,18 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//59
 		DB::table('provinces')->insert([
-			'province_name' => 'Tango',
-			'horses' => '0',
-			'lacquerware' => '0',
-			'pottery' => '0',
+			'province_name' => 'Tamba',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
+			'pottery' => '1',
 			'silk' => '0',
 			'cotton' => '0',
 			'tea' => '0',
 			'iron' => '0',
 			'gold' => '0',
-			'silver' => '0',
-			'coppper' => '0',
+			'silver' => '1',
+			'coppper' => '1',
 			'holy_site' => '0',
 			'smithing' => '0',
 			'ninja_clan' => '0',
@@ -1135,8 +1194,9 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//60
 		DB::table('provinces')->insert([
-			'province_name' => 'Tosa',
-			'horses' => '0',
+			'province_name' => 'Tango',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -1154,14 +1214,15 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//61
 		DB::table('provinces')->insert([
-			'province_name' => 'Totomi',
-			'horses' => '0',
+			'province_name' => 'Tosa',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
-			'tea' => '0',
-			'iron' => '0',
+			'tea' => '1',
+			'iron' => '1',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
@@ -1173,13 +1234,14 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//62
 		DB::table('provinces')->insert([
-			'province_name' => 'Tsushima',
-			'horses' => '0',
+			'province_name' => 'Totomi',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
-			'tea' => '0',
+			'tea' => '1',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
@@ -1192,8 +1254,9 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//63
 		DB::table('provinces')->insert([
-			'province_name' => 'Wakasa',
-			'horses' => '0',
+			'province_name' => 'Tsushima',
+			'horses' => '0', 
+			'naval' => '0',
 			'lacquerware' => '0',
 			'pottery' => '0',
 			'silk' => '0',
@@ -1211,9 +1274,10 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//64
 		DB::table('provinces')->insert([
-			'province_name' => 'Yamashiro',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'province_name' => 'Wakasa',
+			'horses' => '0', 
+			'naval' => '1',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
@@ -1230,18 +1294,39 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//65
 		DB::table('provinces')->insert([
-			'province_name' => 'Yamato',
-			'horses' => '0',
-			'lacquerware' => '0',
+			'province_name' => 'Yamashiro',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '1',
 			'pottery' => '0',
 			'silk' => '0',
 			'cotton' => '0',
-			'tea' => '0',
+			'tea' => '1',
 			'iron' => '0',
 			'gold' => '0',
 			'silver' => '0',
 			'coppper' => '0',
-			'holy_site' => '0',
+			'holy_site' => '1',
+			'smithing' => '0',
+			'ninja_clan' => '0',
+			'philosophy' => '1',
+			'kanrei' => '0'
+		]);	
+		//66
+		DB::table('provinces')->insert([
+			'province_name' => 'Yamato',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '0',
+			'pottery' => '0',
+			'silk' => '0',
+			'cotton' => '0',
+			'tea' => '1',
+			'iron' => '0',
+			'gold' => '1',
+			'silver' => '0',
+			'coppper' => '1',
+			'holy_site' => '1',
 			'smithing' => '0',
 			'ninja_clan' => '0',
 			'philosophy' => '0',
