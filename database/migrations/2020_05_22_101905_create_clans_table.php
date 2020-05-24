@@ -19,8 +19,8 @@ class CreateClansTable extends Migration
 			$table->string('mon');
 			//fk
 			$table->unsignedBigInteger('daimyo')->nullable();
-			$table->unsignedBigInteger('start_location')->nullable();
-			$table->unsignedBigInteger('start_province')->nullable();
+			$table->unsignedBigInteger('start_location');
+			$table->unsignedBigInteger('start_province');
 			$table->unsignedBigInteger('capital')->nullable();
 			//timestamps
             $table->timestamps();

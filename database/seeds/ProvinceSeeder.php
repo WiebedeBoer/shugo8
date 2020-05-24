@@ -474,6 +474,26 @@ class ProvinceSeeder extends Seeder
 		]);	
 		//24
 		DB::table('provinces')->insert([
+			'province_name' => 'Iki',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '0',
+			'pottery' => '0',
+			'silk' => '0',
+			'cotton' => '0',
+			'tea' => '0',
+			'iron' => '0',
+			'gold' => '0',
+			'silver' => '0',
+			'coppper' => '0',
+			'holy_site' => '0',
+			'smithing' => '0',
+			'ninja_clan' => '0',
+			'philosophy' => '0',
+			'kanrei' => '0'
+		]);	
+		//25
+		DB::table('provinces')->insert([
 			'province_name' => 'Inaba',
 			'horses' => '0', 
 			'naval' => '1',
@@ -492,7 +512,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//25
+		//26
 		DB::table('provinces')->insert([
 			'province_name' => 'Ise',
 			'horses' => '0', 
@@ -512,7 +532,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//26
+		//27
 		DB::table('provinces')->insert([
 			'province_name' => 'Iwami',
 			'horses' => '0', 
@@ -532,7 +552,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//27
+		//28
 		DB::table('provinces')->insert([
 			'province_name' => 'Iyo',
 			'horses' => '0', 
@@ -552,7 +572,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//28
+		//29
 		DB::table('provinces')->insert([
 			'province_name' => 'Izu',
 			'horses' => '0', 
@@ -572,7 +592,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//29
+		//30
 		DB::table('provinces')->insert([
 			'province_name' => 'Izumi',
 			'horses' => '0', 
@@ -592,7 +612,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//30
+		//31
 		DB::table('provinces')->insert([
 			'province_name' => 'Izumo',
 			'horses' => '0', 
@@ -612,7 +632,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//31
+		//32
 		DB::table('provinces')->insert([
 			'province_name' => 'Kaga',
 			'horses' => '0', 
@@ -632,7 +652,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//32
+		//33
 		DB::table('provinces')->insert([
 			'province_name' => 'Kai',
 			'horses' => '1', 
@@ -652,7 +672,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//33
+		//34
 		DB::table('provinces')->insert([
 			'province_name' => 'Kawachi',
 			'horses' => '0', 
@@ -672,7 +692,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//34
+		//35
 		DB::table('provinces')->insert([
 			'province_name' => 'Kazusa',
 			'horses' => '0', 
@@ -692,7 +712,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//35
+		//36
 		DB::table('provinces')->insert([
 			'province_name' => 'Kii',
 			'horses' => '0', 
@@ -712,7 +732,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//36
+		//37
 		DB::table('provinces')->insert([
 			'province_name' => 'Kozuke',
 			'horses' => '0', 
@@ -732,7 +752,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '1',
 			'kanrei' => '0'
 		]);	
-		//37
+		//38
 		DB::table('provinces')->insert([
 			'province_name' => 'Mikawa',
 			'horses' => '1', 
@@ -752,7 +772,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//38
+		//39
 		DB::table('provinces')->insert([
 			'province_name' => 'Mimasaka',
 			'horses' => '0', 
@@ -772,7 +792,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//39
+		//40
 		DB::table('provinces')->insert([
 			'province_name' => 'Mino',
 			'horses' => '0', 
@@ -792,7 +812,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//40
+		//41
 		DB::table('provinces')->insert([
 			'province_name' => 'Musashi',
 			'horses' => '0', 
@@ -812,7 +832,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//41
+		//42
 		DB::table('provinces')->insert([
 			'province_name' => 'Mutsu',
 			'horses' => '0', 
@@ -832,7 +852,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '1'
 		]);	
-		//42
+		//43
 		DB::table('provinces')->insert([
 			'province_name' => 'Nagato',
 			'horses' => '0', 
@@ -852,7 +872,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//43
+		//44
 		DB::table('provinces')->insert([
 			'province_name' => 'Noto',
 			'horses' => '0', 
@@ -872,7 +892,27 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//44
+		//45
+		DB::table('provinces')->insert([
+			'province_name' => 'Oki',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '0',
+			'pottery' => '0',
+			'silk' => '0',
+			'cotton' => '0',
+			'tea' => '0',
+			'iron' => '0',
+			'gold' => '0',
+			'silver' => '0',
+			'coppper' => '0',
+			'holy_site' => '0',
+			'smithing' => '0',
+			'ninja_clan' => '0',
+			'philosophy' => '0',
+			'kanrei' => '0'
+		]);	
+		//46
 		DB::table('provinces')->insert([
 			'province_name' => 'Omi',
 			'horses' => '0', 
@@ -892,7 +932,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//45
+		//47
 		DB::table('provinces')->insert([
 			'province_name' => 'Osumi',
 			'horses' => '0', 
@@ -912,7 +952,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//46
+		//48
 		DB::table('provinces')->insert([
 			'province_name' => 'Owari',
 			'horses' => '0', 
@@ -932,7 +972,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//47
+		//49
 		DB::table('provinces')->insert([
 			'province_name' => 'Sado',
 			'horses' => '0', 
@@ -952,7 +992,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//48
+		//50
 		DB::table('provinces')->insert([
 			'province_name' => 'Sagami',
 			'horses' => '0', 
@@ -972,7 +1012,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '1',
 			'kanrei' => '1'
 		]);	
-		//49
+		//51
 		DB::table('provinces')->insert([
 			'province_name' => 'Sanuki',
 			'horses' => '0', 
@@ -992,7 +1032,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//50
+		//52
 		DB::table('provinces')->insert([
 			'province_name' => 'Satsuma',
 			'horses' => '0', 
@@ -1012,7 +1052,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//51
+		//53
 		DB::table('provinces')->insert([
 			'province_name' => 'Settsu',
 			'horses' => '0', 
@@ -1032,7 +1072,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '1',
 			'kanrei' => '0'
 		]);	
-		//52
+		//54
 		DB::table('provinces')->insert([
 			'province_name' => 'Shima',
 			'horses' => '0', 
@@ -1052,7 +1092,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//53
+		//55
 		DB::table('provinces')->insert([
 			'province_name' => 'Shimousa',
 			'horses' => '0', 
@@ -1072,7 +1112,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//54
+		//56
 		DB::table('provinces')->insert([
 			'province_name' => 'Shimotsuke',
 			'horses' => '0', 
@@ -1092,7 +1132,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//55
+		//57
 		DB::table('provinces')->insert([
 			'province_name' => 'Shinano',
 			'horses' => '1', 
@@ -1112,7 +1152,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//56
+		//58
 		DB::table('provinces')->insert([
 			'province_name' => 'Suo',
 			'horses' => '1', 
@@ -1132,7 +1172,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//57
+		//59
 		DB::table('provinces')->insert([
 			'province_name' => 'Suruga',
 			'horses' => '0', 
@@ -1152,7 +1192,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '1',
 			'kanrei' => '0'
 		]);	
-		//58
+		//60
 		DB::table('provinces')->insert([
 			'province_name' => 'Tajima',
 			'horses' => '0', 
@@ -1172,7 +1212,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//59
+		//61
 		DB::table('provinces')->insert([
 			'province_name' => 'Tamba',
 			'horses' => '0', 
@@ -1192,7 +1232,27 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//60
+		//62
+		DB::table('provinces')->insert([
+			'province_name' => 'Tanegashima',
+			'horses' => '0', 
+			'naval' => '0',
+			'lacquerware' => '0',
+			'pottery' => '0',
+			'silk' => '0',
+			'cotton' => '0',
+			'tea' => '0',
+			'iron' => '0',
+			'gold' => '0',
+			'silver' => '0',
+			'coppper' => '0',
+			'holy_site' => '0',
+			'smithing' => '0',
+			'ninja_clan' => '0',
+			'philosophy' => '0',
+			'kanrei' => '0'
+		]);	
+		//63
 		DB::table('provinces')->insert([
 			'province_name' => 'Tango',
 			'horses' => '0', 
@@ -1212,7 +1272,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//61
+		//64
 		DB::table('provinces')->insert([
 			'province_name' => 'Tosa',
 			'horses' => '0', 
@@ -1232,7 +1292,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//62
+		//65
 		DB::table('provinces')->insert([
 			'province_name' => 'Totomi',
 			'horses' => '0', 
@@ -1252,7 +1312,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//63
+		//66
 		DB::table('provinces')->insert([
 			'province_name' => 'Tsushima',
 			'horses' => '0', 
@@ -1272,7 +1332,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//64
+		//67
 		DB::table('provinces')->insert([
 			'province_name' => 'Wakasa',
 			'horses' => '0', 
@@ -1292,7 +1352,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '0',
 			'kanrei' => '0'
 		]);	
-		//65
+		//68
 		DB::table('provinces')->insert([
 			'province_name' => 'Yamashiro',
 			'horses' => '0', 
@@ -1312,7 +1372,7 @@ class ProvinceSeeder extends Seeder
 			'philosophy' => '1',
 			'kanrei' => '0'
 		]);	
-		//66
+		//69
 		DB::table('provinces')->insert([
 			'province_name' => 'Yamato',
 			'horses' => '0', 
