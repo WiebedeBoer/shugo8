@@ -298,7 +298,7 @@ class PlaceSeeder extends Seeder
 		]); 
 		//46
 		DB::table('places')->insert([
-			'place_name' => 'Maruoka',
+			'place_name' => 'Ono',
 			'place_category' => 'castle',
 			'province' => '14'
 		]); 
