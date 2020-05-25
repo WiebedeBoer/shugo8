@@ -107,7 +107,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Arima',
 			'mon' => 'arima',
-			'start_location' => '71',
+			'start_location' => '72',
 			'start_province' => '20'
 		]);	
 		//15
@@ -163,8 +163,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Atagi',
 			'mon' => 'atagi',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '170',
+			'start_province' => '51'
 		]);	
 		//23
 		DB::table('clans')->insert([
@@ -198,8 +198,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Chosokabe',
 			'mon' => 'chosokabe',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '204',
+			'start_province' => '64'
 		]);	
 		//28
 		DB::table('clans')->insert([
@@ -310,8 +310,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Ichijo',
 			'mon' => 'ichijo',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '205',
+			'start_province' => '64'
 		]);	
 		//44
 		DB::table('clans')->insert([
@@ -324,7 +324,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Ijuin',
 			'mon' => 'ijuin',
-			'start_location' => '77',
+			'start_location' => '78',
 			'start_province' => '22'
 		]);	
 		//46
@@ -408,7 +408,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Ito',
 			'mon' => 'ito',
-			'start_location' => '76',
+			'start_location' => '77',
 			'start_province' => '22'
 		]);	
 		//58
@@ -485,7 +485,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Kimotsuki',
 			'mon' => 'kimotsuki',
-			'start_location' => '78',
+			'start_location' => '79',
 			'start_province' => '22'
 		]);			
 		//69
@@ -534,8 +534,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Kono',
 			'mon' => 'kono',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '94',
+			'start_province' => '28'
 		]);	
 		//76
 		DB::table('clans')->insert([
@@ -555,8 +555,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Kurushima',
 			'mon' => 'kurushima',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '93',
+			'start_province' => '28'
 		]);	
 		//79
 		DB::table('clans')->insert([
@@ -618,8 +618,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Miyoshi',
 			'mon' => 'miyoshi',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '6',
+			'start_province' => '2'
 		]);	
 		//88
 		DB::table('clans')->insert([
@@ -660,8 +660,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Nabeshima',
 			'mon' => 'otomo',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '68',
+			'start_province' => '20'
 		]);	
 		//94
 		DB::table('clans')->insert([
@@ -709,7 +709,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Niiro',
 			'mon' => 'niiro',
-			'start_location' => '159',
+			'start_location' => '160',
 			'start_province' => '47'
 		]);	
 		//101
@@ -793,7 +793,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Omura',
 			'mon' => 'oda',
-			'start_location' => '70',
+			'start_location' => '71',
 			'start_province' => '20'
 		]);	
 		//113
@@ -814,8 +814,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Otomo',
 			'mon' => 'otomo',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '20',
+			'start_province' => '8'
 		]);	
 		//116
 		DB::table('clans')->insert([
@@ -835,8 +835,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Ryuzoji',
 			'mon' => 'amakusa',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '27',
+			'start_province' => '10'
 		]);	
 		//119
 		DB::table('clans')->insert([
@@ -933,7 +933,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Shimazu',
 			'mon' => 'niiro',
-			'start_location' => '172',
+			'start_location' => '173',
 			'start_province' => '52'
 		]);	
 		//133
@@ -947,14 +947,14 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Shoni',
 			'mon' => 'shoni',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '67',
+			'start_province' => '20'
 		]);	
 		//135
 		DB::table('clans')->insert([
 			'clan_name' => 'So',
 			'mon' => 'so',
-			'start_location' => '210',
+			'start_location' => '211',
 			'start_province' => '66'
 		]);	
 		//136
@@ -975,15 +975,15 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Tachibana',
 			'mon' => 'tachibana',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '29',
+			'start_province' => '11'
 		]);	
 		//139
 		DB::table('clans')->insert([
 			'clan_name' => 'Takahashi',
 			'mon' => 'takahashi',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '24',
+			'start_province' => '8'
 		]);	
 		//140
 		DB::table('clans')->insert([
@@ -1024,7 +1024,7 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Tanegashima',
 			'mon' => 'hojo',
-			'start_location' => '201',
+			'start_location' => '202',
 			'start_province' => '62'
 		]);	
 		//146
@@ -1129,8 +1129,8 @@ class ClanSeeder extends Seeder
 		DB::table('clans')->insert([
 			'clan_name' => 'Yamauchi',
 			'mon' => 'yamauchi',
-			'start_location' => '',
-			'start_province' => ''
+			'start_location' => '206',
+			'start_province' => '64'
 		]);	
 		//161
 		DB::table('clans')->insert([
