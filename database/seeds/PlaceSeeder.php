@@ -775,138 +775,156 @@ class PlaceSeeder extends Seeder
 			'place_category' => 'castle',
 			'province' => '37'
 		]);	
-		//mikawa
 		//122
+		DB::table('places')->insert([
+			'place_name' => 'Tatebayashi',
+			'place_category' => 'castle',
+			'province' => '37'
+		]);	
+		//mikawa
+		//123
 		DB::table('places')->insert([
 			'place_name' => 'Okasaki',
 			'place_category' => 'castle',
 			'province' => '38'
 		]);	
-		//123
+		//124
 		DB::table('places')->insert([
 			'place_name' => 'Yoshida',
 			'place_category' => 'port',
 			'province' => '38'
 		]);	
-		//124
+		//125
 		DB::table('places')->insert([
 			'place_name' => 'Tahara',
 			'place_category' => 'port',
 			'province' => '38'
 		]);	
-		//125
+		//126
 		DB::table('places')->insert([
 			'place_name' => 'Koromo',
 			'place_category' => 'castle',
 			'province' => '38'
 		]);	
 		//mimasaka
-		//126
+		//127
 		DB::table('places')->insert([
 			'place_name' => 'Tsuyama',
 			'place_category' => 'castle',
 			'province' => '39'
 		]);	
 		//mino
-		//127
+		//128
 		DB::table('places')->insert([
 			'place_name' => 'Gifu',
 			'place_category' => 'castle',
 			'province' => '40'
 		]);		
-		//128
+		//129
 		DB::table('places')->insert([
 			'place_name' => 'Inuyama',
 			'place_category' => 'castle',
 			'province' => '40'
 		]);	
-		//129
+		//130
 		DB::table('places')->insert([
 			'place_name' => 'Ogaki',
 			'place_category' => 'rural',
 			'province' => '40'
 		]);	
-		//130
+		//131
 		DB::table('places')->insert([
 			'place_name' => 'Nakatsugawa',
 			'place_category' => 'post',
 			'province' => '40'
+		]);
+		//132
+		DB::table('places')->insert([
+			'place_name' => 'Mizuho',
+			'place_category' => 'post',
+			'province' => '40'
 		]);	
+		//133
+		DB::table('places')->insert([
+			'place_name' => 'Ena',
+			'place_category' => 'post',
+			'province' => '40'
+		]);		
 		//musashi
-		//131
+		//134
 		DB::table('places')->insert([
 			'place_name' => 'Edo',
 			'place_category' => 'port',
 			'province' => '41'
 		]);	
-		//132
+		//135
 		DB::table('places')->insert([
 			'place_name' => 'Kawagoe',
 			'place_category' => 'castle',
 			'province' => '41'
 		]);	
-		//133
+		//136
 		DB::table('places')->insert([
 			'place_name' => 'Kawaguchi',
 			'place_category' => 'post',
 			'province' => '41'
 		]);	
-		//134
+		//137
 		DB::table('places')->insert([
 			'place_name' => 'Hachioji',
 			'place_category' => 'post',
 			'province' => '41'
 		]);	
-		//135
+		//138
 		DB::table('places')->insert([
 			'place_name' => 'Kawasaki',
 			'place_category' => 'post',
 			'province' => '41'
 		]);	
-		//136
+		//139
 		DB::table('places')->insert([
 			'place_name' => 'Yokohama',
 			'place_category' => 'post',
 			'province' => '41'
 		]);	
 		//mutsu
-		//137
+		//140
 		DB::table('places')->insert([
 			'place_name' => 'Aomori',
 			'place_category' => 'port',
 			'province' => '42'
 		]);	
-		//138
+		//141
 		DB::table('places')->insert([
 			'place_name' => 'Hirosaki',
 			'place_category' => 'castle',
 			'province' => '42'
 		]);	
-		//139
+		//142
 		DB::table('places')->insert([
 			'place_name' => 'Morioka',
 			'place_category' => 'castle',
 			'province' => '42'
 		]);	
-		//140
+		//143
 		DB::table('places')->insert([
 			'place_name' => 'Sendai',
 			'place_category' => 'port',
 			'province' => '42'
 		]);	
-		//141
+		//144
 		DB::table('places')->insert([
 			'place_name' => 'Shiroishi',
 			'place_category' => 'castle',
 			'province' => '42'
 		]);	
-		//142
+		//145
 		DB::table('places')->insert([
 			'place_name' => 'Nihonmatsu',
 			'place_category' => 'castle',
 			'province' => '42'
 		]);	
-		//143
+		//146
 		DB::table('places')->insert([
 			'place_name' => 'Wakamatsu',
 			'place_category' => 'castle',
@@ -1215,181 +1233,202 @@ class PlaceSeeder extends Seeder
 			'place_category' => 'post',
 			'province' => '57'
 		]);	
-		//suo
+		
 		//192
+		DB::table('places')->insert([
+			'place_name' => 'Nagano',
+			'place_category' => 'temple',
+			'province' => '57'
+		]);	
+		//193
+		DB::table('places')->insert([
+			'place_name' => 'Nakano',
+			'place_category' => 'rural',
+			'province' => '57'
+		]);			
+		//194
+		DB::table('places')->insert([
+			'place_name' => 'Iiyama',
+			'place_category' => 'rural',
+			'province' => '57'
+		]);				
+		
+		
+		//suo
+		//195
 		DB::table('places')->insert([
 			'place_name' => 'Yamaguchi',
 			'place_category' => 'rural',
 			'province' => '58'
 		]);	
-		//193
+		//196
 		DB::table('places')->insert([
 			'place_name' => 'Hofu',
 			'place_category' => 'port',
 			'province' => '58'
 		]);	
-		//194
+		//197
 		DB::table('places')->insert([
 			'place_name' => 'Iwakuni',
 			'place_category' => 'port',
 			'province' => '58'
 		]);	
 		//suruga
-		//195
+		//198
 		DB::table('places')->insert([
 			'place_name' => 'Shizuoka',
 			'place_category' => 'port',
 			'province' => '59'
 		]);	
-		//196
+		//199
 		DB::table('places')->insert([
 			'place_name' => 'Yoshiawara',
 			'place_category' => 'post',
 			'province' => '59'
 		]);	
 		//tajima
-		//197
+		//200
 		DB::table('places')->insert([
 			'place_name' => 'Izushi',
 			'place_category' => 'castle',
 			'province' => '60'
 		]);	
-		//198
+		//201
 		DB::table('places')->insert([
 			'place_name' => 'Kinosaki',
 			'place_category' => 'rural',
 			'province' => '60'
 		]);	
 		//tamba
-		//199
+		//202
 		DB::table('places')->insert([
 			'place_name' => 'Fukuchiyama',
 			'place_category' => 'castle',
 			'province' => '61'
 		]);	
-		//200
+		//203
 		DB::table('places')->insert([
 			'place_name' => 'Sasayama',
 			'place_category' => 'castle',
 			'province' => '61'
 		]);	
-		//201
+		//204
 		DB::table('places')->insert([
 			'place_name' => 'Kameyama',
 			'place_category' => 'castle',
 			'province' => '61'
 		]);
 		//tanegashima
-		//202
+		//205
 		DB::table('places')->insert([
 			'place_name' => 'Tanegashima',
 			'place_category' => 'port',
 			'province' => '62'
 		]);	
 		//tango
-		//203
+		//206
 		DB::table('places')->insert([
 			'place_name' => 'Miyazu',
 			'place_category' => 'port',
 			'province' => '63'
 		]);	
 		//tosa
-		//204
+		//207
 		DB::table('places')->insert([
 			'place_name' => 'Kochi',
 			'place_category' => 'port',
 			'province' => '64'
 		]);	
-		//205
+		//208
 		DB::table('places')->insert([
 			'place_name' => 'Nankoku',
 			'place_category' => 'rural',
 			'province' => '64'
 		]);	
-		//206
+		//209
 		DB::table('places')->insert([
 			'place_name' => 'Nakamura',
 			'place_category' => 'port',
 			'province' => '64'
 		]);	
 		//totomi
-		//207
+		//210
 		DB::table('places')->insert([
 			'place_name' => 'Hamamatsu',
 			'place_category' => 'port',
 			'province' => '65'
 		]);	
-		//208
+		//211
 		DB::table('places')->insert([
 			'place_name' => 'Kakegawa',
 			'place_category' => 'castle',
 			'province' => '65'
 		]);	
-		//209
+		//212
 		DB::table('places')->insert([
 			'place_name' => 'Iwata',
 			'place_category' => 'post',
 			'province' => '65'
 		]);		
-		//210
+		//213
 		DB::table('places')->insert([
 			'place_name' => 'Shimada',
 			'place_category' => 'post',
 			'province' => '65'
 		]);	
 		//tsushima
-		//211
+		//214
 		DB::table('places')->insert([
 			'place_name' => 'Kaneishi',
 			'place_category' => 'port',
 			'province' => '66'
 		]);	
 		//wakasa
-		//212
+		//215
 		DB::table('places')->insert([
 			'place_name' => 'Obama',
 			'place_category' => 'port',
 			'province' => '67'
 		]);	
-		//213
+		//216
 		DB::table('places')->insert([
 			'place_name' => 'Kanagasaki',
 			'place_category' => 'port',
 			'province' => '67'
 		]);	
 		//yamashiro
-		//214
+		//217
 		DB::table('places')->insert([
 			'place_name' => 'Kyoto',
 			'place_category' => 'court',
 			'province' => '68'
 		]);	
-		//215
+		//218
 		DB::table('places')->insert([
 			'place_name' => 'Fushimi',
 			'place_category' => 'castle',
 			'province' => '68'
 		]);	
-		//216
+		//219
 		DB::table('places')->insert([
 			'place_name' => 'Yodo',
 			'place_category' => 'castle',
 			'province' => '68'
 		]);
 		//yamato
-		//217
+		//220
 		DB::table('places')->insert([
 			'place_name' => 'Nara',
 			'place_category' => 'temple',
 			'province' => '69'
 		]);	
-		//218
+		//221
 		DB::table('places')->insert([
 			'place_name' => 'Koriyama',
 			'place_category' => 'castle',
 			'province' => '69'
 		]);	
-		//219
+		//222
 		DB::table('places')->insert([
 			'place_name' => 'Sakurai',
 			'place_category' => 'temple',
